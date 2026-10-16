@@ -1,4 +1,4 @@
-# Multi-omics integration practicum
+# RGCCA for Exposomic Data Integration in Youth Health
 
 **Adrià Setó Llorens**, Predoctoral Researcher at the Barcelona Institute for Global Health (ISGlobal).
 
@@ -26,11 +26,9 @@ Note: The data provided in this introductory course were simulated from the HELI
 # Repository guide
 The repository contains the following documents:
 
-* The WORKSHOP_MULTIOMICS_INTEGRATION.ipynb. It contains the notebook for the practical tutorial with the code needed to perform the multi-omic integration using RGCCA.
 * The WORKSHOP_MULTIOMICS_INTEGRATION.Rmd file contains the R Markdown tutorial and all the code needed to perform multi-omic integration using RGCCA locally.
 * The WORKSHOP_MULTIOMICS_INTEGRATION.html file presents the code and results of the tutorial on multi-omic integration using RGCCA.
 * Functions: This directory contains all the functions used in this session. These functions are stored in separate files to keep the notebook clean and easy to follow. For more details, you can consult the files in this directory.
-* RGCCA modified package.
 
 This is the dataset we will use:
 
@@ -56,15 +54,6 @@ The variables that are available in the metadata are:
 > 5. **ethn_PC1**: first PCA to address population stratification
 > 6. **ethn_PC2**: second PCA to address population stratification
 > 7. **Cell-type estimates** (only for methylation): NK_6, Bcell_6, CD4T_6, CD8T_6, Gran_6, Mono_6
-
-# Reminder: Introduction to NoteBook
-This notebook will guide you step by step, from loading a dataset to analyzing it.
-
-Getting Started:
-* Open multiomics_integration_tutorial.ipynb and click “Open in Colab” (sign in with your Google account if needed).
-* Select “Open in draft mode” at the top left so you can run the code safely.
-* If you see "Warning: This notebook was not created by Google.", don’t worry—just click Run anyway.
-
 How to Use the Notebook:
 * The notebook mixes text explanations and code cells for hands-on learning.
 * Always run cells in order to avoid errors.
